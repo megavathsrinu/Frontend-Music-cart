@@ -1,0 +1,86 @@
+
+
+.homeIcon{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    cursor: pointer;
+}
+
+.homeIcon img{
+   width: 10vw;
+}
+
+
+.successCardContainer{
+    height: 82.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.successCard{
+    width: 50vw;
+    height: 60vh;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 227, 227);
+    box-shadow: 6px 6px 15px rgba(146, 145, 145, 0.2);
+}
+
+.successImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.successImage img{
+    width: 6vw;
+}
+
+.orderPlacedMessage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderPlacedMessage span{
+    margin-top: -1vw;
+    color: gray;
+}
+
+.orderPlacedMessage button{
+    width: 15vw;
+    height: 4.5vh;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 6vh;
+    color: white;
+    background-color: #2E0052;
+}
+
+@media (max-width: 500px){
+ 
+    .successCardContainer{
+       height:86vh;
+    }
+
+    .successCard{
+      width: 80vw;
+    }
+
+    .successImage img{
+        width: 15vw;
+    }
+
+    .orderPlacedMessage span{
+        font-size: 14px;
+       text-align: center;
+    }
+
+    .orderPlacedMessage button{
+       width: 70vw;
+    }
+
+
+   
+}

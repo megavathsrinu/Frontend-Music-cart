@@ -1,0 +1,105 @@
+
+
+.productDetails{
+    display: flex;
+    /* margin-top: 2vh; */
+    width: 90vw;
+    height: 35vh;
+    background-color: #DBDBDB;
+}
+
+.imageContainer{
+    width: 40vw;
+    height: 25vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.imageContainer img{
+    width: 30vw;
+    height: 20vh;
+    padding: 15px;
+    margin-left: 2px;
+}
+
+.orderDetails{
+    margin-top: 14px;
+    margin-left: 2vw;
+    display: flex;
+}
+
+
+.priceDetails{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 5vw;
+    border-top: 1px solid gray;
+    padding-bottom: 5vw;
+}
+
+.label{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.value{
+    margin-left: 7vw;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.header{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container{
+    margin-top: 1vh;
+}
+
+.discountValue{
+    margin-left: 3.5vw;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.feeValue{
+    margin-left: 4vw;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.amountValue{
+    margin-left: 5.5vw;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.placeOrder{
+    margin-top: 2vh;
+    width: 85vw;
+    height: 5vh;
+    background-color: rgb(255, 196, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.removeCartItem{
+    margin-top: 2vh;
+}
+
+
+.totalAmount{
+    margin-top: 15vh;
+    font-weight: 500;
+}
+
+@media (max-width: 350px){
+
+    .totalAmount{
+        margin-top: 1vh;
+        font-weight: 500;
+    }
+}

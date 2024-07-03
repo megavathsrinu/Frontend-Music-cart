@@ -1,0 +1,294 @@
+
+.main{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  height: 86vh;
+}
+
+.homeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo{
+    height: 5vh;
+}
+
+.home{
+    margin-top: 1vh;
+    height: 3vh;
+    margin-left: 8px;
+}
+
+.viewCartContainer{
+    display: flex;
+    align-items: center;
+}
+
+.cartButton{
+    display: flex;
+    align-items: center;
+    outline: none;
+    border-radius: 8px;
+    background-color: #1D7000;
+    padding: 2px;
+}
+
+.cartIcon{
+    height: 3vh;
+}
+
+.viewCart{
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+
+.backToProducts{
+    margin-top: 4vh;
+    width: 12vw;
+    height: 4vh;
+    background-color: #2E0052 ;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+
+.productHeader{
+    font-weight: 300;
+}
+
+.productDetails{
+   display: flex;
+   overflow-y: scroll;
+}
+
+.productDetails::-webkit-scrollbar{
+    display: none;
+}
+
+.mainImage{
+    border-radius: 10px;
+    border: 2px solid #2E0052 ;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38vh;
+}
+
+.mainImage img{
+    width: 15vw;
+    height: 30vh;
+}
+
+.otherImages{
+    display: flex;
+}
+
+.imageOneContainer{
+    border-radius: 10px;
+    border: 2px solid #2E0052 ;
+    width: 9vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageOneContainer img{ 
+    width: 8vw;
+    height: 10vh;
+}
+
+.imageTwoContainer{
+    border-radius: 10px;
+    margin-left: 13px;
+    border: 2px solid #2E0052 ;
+    width: 9vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageTwoContainer img{ 
+    width: 8vw;
+    height: 10vh;
+}
+
+
+.imageThreeContainer{
+    border-radius: 10px;
+    margin-left: 13px;
+    border: 2px solid #2E0052 ;
+    width: 9vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageThreeContainer img{ 
+    width: 8vw;
+    height: 10vh;
+}
+
+
+.otherImages{
+    margin-top: 2vh;
+}
+
+.aboutProduct{
+    margin-left: 5vw;
+    width: 60vw;
+}
+
+.aboutItem{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.starIcon{
+    height: 15px;
+}
+
+.ratings{
+    margin-top: 5px;
+    display: flex;
+}
+
+.itemHeader{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.priceContainer span{
+    font-weight: 600;
+}
+
+.smallFont{
+    font-size: 14px;
+}
+
+.addToCart{
+    margin-top: 1vw;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 10px;
+    background-color: #FFD600;
+    border: none;
+    cursor: pointer;
+}
+
+.buyNow{
+    margin-top: 5px;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 10px;
+    background-color: #FFB800;
+    border: none;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 700px){
+
+    .main{
+        height: 83vh;
+    }
+
+    .aboutProduct{
+        margin-left: 0;
+        padding: 3vw;
+        width: 82vw;
+    }
+
+    .productDetails{
+        display: inline-block;
+     }
+
+     .arrow{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        width: 30px;
+        border-radius: 50%;
+        background-color: white;
+        box-shadow: 0px 0px 0px 0.6px gray;
+        margin-bottom: 10px;
+     }
+
+     .buyNowContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .buyNowContainer button{
+        margin-left: -8px;
+     }
+
+     .addToCart{
+        margin-top: 2vh;
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        background-color: #FFD600;
+        border: none;
+    }
+    
+    .buyNow{
+        margin-top: 1vh;
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        background-color: #FFB800;
+        border: none;
+        margin-bottom: 2vh;
+    }
+
+    .ratings{
+        margin-top: 8px;
+    }
+
+    .description{
+        margin-top: 8px;
+    }
+
+    .priceContainer{
+        margin-top: 10px;
+    }
+
+    .headphoneType{
+        margin-top: 10px;
+    }
+
+    .aboutItem{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

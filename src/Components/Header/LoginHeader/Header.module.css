@@ -1,0 +1,36 @@
+
+.header{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    background-color: #2E0052;
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    /* margin-top: 1vh; */
+    margin-left: 20px;
+    height: 3vh;
+    width: 5vw;
+}
+
+.musiCart{
+    margin-left: 3px;
+    /* margin-top: 1vh; */
+    color: white;
+}
+
+@media (max-width: 700px){
+    .header{
+      height: 7vh;
+    }
+
+    .logo{
+      /* margin-top: 1px; */
+      height: 5vh;
+      width: 5vw;
+    }
+}

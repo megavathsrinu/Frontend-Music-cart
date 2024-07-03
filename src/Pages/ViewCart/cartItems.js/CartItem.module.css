@@ -1,0 +1,137 @@
+
+.main{
+    display: flex;
+    margin-top: 5vh;
+}
+
+.items{
+    overflow: scroll;
+    height: 50vh;
+}
+
+.items::-webkit-scrollbar {
+    display: none; 
+  }
+
+.productDetails{
+    display: flex;
+    margin-top: 2vh;
+    width: 50vw;
+    height: 30vh;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.imageContainer{
+    width: 10vw;
+    height: 25vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid #2E0052 ;
+    border-radius: 10px;
+}
+
+.imageContainer img{
+    width: 8vw;
+    height: 20vh;
+    padding: 20px;
+    margin-left: 4px;
+}
+
+.orderDetails{
+    margin-top: 20px;
+    margin-left: 2vw;
+    display: flex;
+}
+
+.itemNameInfo{
+    margin-left: 2vw;
+    width: 14vw;
+}
+
+.priceContainer{
+    margin-left: 2vw;
+}
+
+.quantityInfo{
+    margin-left: 2vw;
+}
+
+.totalContainer{
+    margin-left: 2vw;
+}
+
+.header{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.priceDetails{
+    margin-left: 5vw;
+}
+
+.container span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.value{
+    margin-left: 7vw;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.container{
+    margin-top: 1vh;
+}
+
+.discountValue{
+    margin-left: 3.5vw;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.feeValue{
+    margin-left: 4vw;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.amountValue{
+    margin-left: 5.5vw;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.placeOrder{
+    margin-top: 2vh;
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(255, 196, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.itemInfo div{
+   font-size: 12px;
+   color: gray;
+}
+
+.itemQuantity{
+   margin-left: 15vw;
+   font-weight: 600;
+   font-size: 15px;
+}
+
+.itemPrice{
+   margin-left: 25vw;
+   font-weight: 600;
+   font-size: 15px;
+}
+
+.totalAmount{
+    margin-top: 25vh;
+}

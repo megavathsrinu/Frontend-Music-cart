@@ -1,0 +1,28 @@
+
+
+.main{
+    width: 100vw;
+    background-color: #2E0052;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.content{
+    color: white;
+
+}
+
+
+@media (max-width: 700px){
+
+    .main{
+        height: 5vh;
+    }
+
+    .content{
+        font-size: 12px;
+    }
+
+}

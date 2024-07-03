@@ -1,0 +1,55 @@
+
+.header{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2E0052;
+    width: 100vw;
+}
+
+.leftBlock{
+    padding-left: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.phoneIcon{
+    height: 2vh;
+}
+
+.mobileNumber{
+    color: white;
+    padding-left: 6px;
+    font-size: 13px;
+}
+
+.offer{
+    color: white; 
+    font-size: 13px;
+}
+
+
+.login_signup{
+    padding-right: 2vw;
+}
+
+.login{
+    color: white;  
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.signup{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.logout{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding-right: 20px;
+    cursor: pointer;
+}
